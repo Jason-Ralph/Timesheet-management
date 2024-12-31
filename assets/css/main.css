@@ -1,0 +1,640 @@
+a {
+  color: #538C44;
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+/* Column Base */
+.col {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.col-1 {
+  flex-basis: 8.33%;
+}
+.col-2 {
+  flex-basis: 16.66%;
+} 
+.col-3 {
+  flex-basis: 25%;
+}
+.col-4 {
+  flex-basis: 33.33%;
+}
+.col-5 {
+  flex-basis: 41.66%;
+}
+.col-6 {
+  flex-basis: 50%;
+} 
+.col-7 {
+  flex-basis: 58.33%;
+}
+.col-8 {
+  flex-basis: 66.66%;
+}
+.col-9 {
+  flex-basis: 75%;
+}
+.col-10 {
+  flex-basis: 83.33%;
+}
+.col-11 {
+  flex-basis: 91.66%;
+}
+.col-12 {
+  flex-basis: 100%;
+}
+.gap-5 {
+  gap: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-25 {
+  gap: 25px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-35 {
+  gap: 35px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-45 {
+  gap: 45px;
+}
+.gap-50 {
+  gap: 50px;
+}
+.gap-55 {
+  gap: 55px;
+}
+.gap-60 {
+  gap: 60px;
+}
+.profile-card-left {
+  flex-basis: 59%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: #ccc 0px 0px 15px;
+  border: 1px solid #ab2;
+  box-sizing: border-box;
+}
+.profile-banner {
+  min-height: 230px;
+  background-image: url("../images/leafy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #ab2;
+  margin: 0 -12px;
+}
+.profile-content-row {
+  display: flex;
+  padding-bottom: 60px;
+  background-image: url(../images/texture-down.png);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.profile-image {
+  border: 10px solid #ab2;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 201px;
+  max-height: 200px;
+  margin: 30px;
+  margin-left: 60px;
+  position: relative;
+  top: -150px;
+  background: #ab2;
+}
+.profile-image img {
+  display: block;
+  max-width: 100%;
+}
+.profile-content {
+  padding: 30px;
+  flex-basis: 30%;
+}
+.profile-content div.basic {}
+.profile-content div.socials {}
+.profile-content div.socials ul.social-list {
+  padding: 0;
+  display: flex;
+  margin-top: 30px;
+}
+.profile-content div.socials ul.social-list li.email {}
+.profile-content div.socials ul.social-list li.email:after {
+  content: '\ef12';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.profile-content div.socials ul.social-list li.phone {}
+.profile-content div.socials ul.social-list li.phone:after {
+  content: '\ec46';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.profile-content div.socials ul.social-list li.linkedin {}
+.profile-content div.socials ul.social-list li.linkedin:after {
+  content: '\ed4d';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.profile-content div.socials ul.social-list li.facebook {}
+.profile-content div.socials ul.social-list li.facebook:after {
+  content: '\ed37';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.profile-content div.socials ul.social-list li.whatsapp {}
+.profile-content div.socials ul.social-list li.whatsapp:after {
+  content: '\e957';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+i.whatsapp {
+  position: relative;
+  margin-right: 30px;
+  font-style: normal;
+}
+i.whatsapp:after {
+  content: '\e957';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+i.email {
+  position: relative;
+  margin-right: 30px;
+  font-style: normal;
+}
+i.email:after {
+  content: '\ef12';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+i.phone {
+  position: relative;
+  margin-right: 30px;
+  font-style: normal;
+}
+i.phone:after {
+  content: '\ec46';
+  font-family: "IcoFont";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.profile-image-sml {
+  border: 5px solid #ab2;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 101px;
+  max-height: 100px;
+  margin: 30px;
+  margin-left: 60px;
+  position: relative;
+  top: 0;
+  background: #ab2;
+}
+.profile-image-sml img {
+  display: block;
+  max-width: 100%;
+}
+.profile-content div.basic p.name {
+  font-size: 22px;
+}
+.profile-content p.nickName {}
+.profile-content p.title {}
+.profile-content p.department {}
+.profile-content p.manager {}
+.profile-content p.userType {}
+.profile-card-right {
+  flex-basis: 35%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: #ccc 0px 0px 15px;
+  border: 1px solid #ab2;
+  padding: 50px 60px;
+  padding-bottom: 60px;
+  background-image: url(../images/texture-down.png);
+  background-position: bottom;
+  background-size: 175%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+.profile-content div.basic p {
+  font-size: 13px;
+  text-align: center;
+  color: #ab2;
+}
+.profile-content div.socials ul.social-list li {
+  position: relative;
+  padding: 15px 25px;
+  list-style: none;
+  font-size: 25px;
+  color: #ab2;
+}
+.profile-content div.socials ul.social-list li a {
+  color: #ab2;
+}
+.card-logo {
+  padding: 60px;
+  width: 30%;
+  position: relative;
+}
+.card-logo img {
+  position: absolute;
+  right: 60px;
+  top: -30px;
+}
+.profile-card-right p {
+  line-height: 1.4;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.profile-card-right p span {
+  font-size: 13px;
+  color: #ab2;
+}
+.profile-card-right h4 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.profile-content div.basic p strong {
+  margin-right: 10px;
+  display: inline-block;
+  text-align: left;
+  color: #000;
+}
+h1 {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  color: #ab2;
+}
+section {
+  position: relative;
+  box-sizing: border-box;
+}
+section article {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 45px;
+}
+nav#slide-menu {
+  position: fixed;
+  top: 0;
+  left: -100px;
+  bottom: 0;
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 284px;
+  height: 100%;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+nav#slide-menu > ul {
+  display: block;
+  margin: 40px;
+  padding: 0;
+  list-style: none;
+  opacity: 0.5;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+nav#slide-menu > ul li ul {
+  list-style: none;
+  padding-left: 10px;
+}
+nav#slide-menu > ul li {
+  color: #dfe5eb;
+  padding: 6px 0;
+  cursor: pointer;
+}
+nav#slide-menu > ul li a {
+  color: #ab2;
+}
+nav#slide-menu > ul li.sublist {
+  color: #ab2;
+}
+nav#slide-menu > ul li:hover {
+  color: #59e9df;
+}
+nav#slide-menu > ul li:before {
+  font-family: "IcoFont";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 16px;
+  color: #538C44;
+  margin-right: 12px;
+  text-align: center;
+  font-variant: normal;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1em;
+}
+nav#slide-menu > ul li.sep {
+  margin-top: 7px;
+  padding-top: 14px;
+  border-top: 1px solid #6b7b8d;
+}
+nav#slide-menu > ul li.project-time:before {
+  content: '\ec89';
+}
+nav#slide-menu > ul li.users:before {
+  content: '\ec8e';
+}
+nav#slide-menu > ul li.leave:before {
+  content: "\ec45"
+}
+nav#slide-menu > ul li.logout:before {
+  content: '\ef7c';
+}
+nav#slide-menu > ul li.login:before {
+  content: '\ef7b';
+}
+nav#slide-menu > ul li.log:before {
+  content: '\ecab';
+}
+nav#slide-menu > ul li.dashboard:before {
+  content: '\eefa';
+}
+nav#slide-menu > ul li.client:before {
+  content: '\ecf9';
+}
+nav#slide-menu > ul li.media:before {
+  content: '\ec9e';
+}
+nav#slide-menu > ul li.leader:before {
+  content: '\e806';
+}
+nav#slide-menu > ul li.projects:before {
+  content: '\e979';
+}
+nav#slide-menu > ul li.case:before {
+  content: '\ead3';
+}
+body.menu-active nav#slide-menu {
+  left: 0px;
+}
+body.menu-active nav#slide-menu ul {
+  left: 0px;
+  opacity: 1;
+}
+/*
+  Content
+*/
+div.content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  overflow: auto;
+  background: #fcfeff;
+  border-radius: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: -3px 0 6px #4a5562;
+  -webkit-box-shadow: -3px 0 6px #4a5562;
+  box-shadow: -3px 0 6px #4a5562;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+div.content div.menu-trigger {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 36px;
+  height: 36px;
+  background: #dfe5eb;
+  cursor: pointer;
+  border-radius: 5px;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+div.content div.menu-trigger:before {
+  content: '\efa2';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  color: black;
+  font-family: "IcoFont";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-transform: none;
+  line-height: 36px;
+}
+div.content div.menu-trigger:hover {
+  background: #556270;
+}
+div.content div.menu-trigger:hover:before {
+  color: #fcfeff;
+}
+body.menu-active div.content {
+  left: 284px;
+  border-radius: 7px 0 0 7px;
+}
+body.menu-active div.content .menu-trigger {
+  left: 294px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F8FBF0;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #538C44;
+  border-color: #538C44;
+}
+.menu-logo {
+  max-width: 250px;
+  margin: 20px auto;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+
+.task-profile-card-left {
+  max-width: 1080px;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: #ccc 0px 0px 15px;
+  border: 1px solid #ab2;
+  box-sizing: border-box;
+  margin-bottom: 45px;
+  padding: 0;
+}
+.task-profile-banner {
+  min-height: 230px;
+  background-image: url("../images/leafy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #ab2;
+  margin: 0 0px;
+}
+.task-profile-content-row {
+  display: flex;
+  padding-bottom: 60px;
+  background-image: url(../images/texture-down.png);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.task-profile-image {
+  overflow: hidden;
+  max-width: 250px;
+  max-height: fit-content;
+  margin: 30px;
+  margin-left: 30px;
+  position: relative;
+  top: 0px;
+  background: #3EAA34;
+  padding: 20px;
+}
+.task-profile-image img {
+  display: block;
+  max-width: 100%;
+}
+.task-profile-content {
+  padding: 30px;
+  flex-basis: 70%;
+}
+
+.task-profile-image-sml {
+  border: 5px solid #ab2;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 101px;
+  max-height: 100px;
+  margin: 30px;
+  margin-left: 60px;
+  position: relative;
+  top: 0;
+  background: #ab2;
+}
+.task-profile-image-sml img {
+  display: block;
+  max-width: 100%;
+}
+.task-profile-content div.basic p.name {
+  font-size: 22px;
+}
+.task-profile-content p.nickName {}
+.task-profile-content p.title {}
+.task-profile-content p.department {}
+.task-profile-content p.manager {}
+.task-profile-content p.userType {}
+.task-profile-card-right {
+  flex-basis: 35%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: #ccc 0px 0px 15px;
+  border: 1px solid #ab2;
+  padding: 50px 60px;
+  padding-bottom: 60px;
+  background-image: url(../images/texture-down.png);
+  background-position: bottom;
+  background-size: 175%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+.task-profile-content div.basic p {
+  font-size: 13px;
+  /* text-align: center; */
+  color: #ab2;
+}
+.task-profile-content div.socials ul.social-list li {
+  position: relative;
+  padding: 15px 25px;
+  list-style: none;
+  font-size: 25px;
+  color: #ab2;
+}
+.task-profile-content div.socials ul.social-list li a {
+  color: #ab2;
+}
+.task-card-logo {
+  padding: 60px;
+  width: 40%;
+  position: relative;
+}
+.task-card-logo img {
+  position: absolute;
+  right: 35%;
+  top: -30px;
+}
+.task-profile-card-right p {
+  line-height: 1.4;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.task-profile-card-right p span {
+  font-size: 13px;
+  color: #ab2;
+}
+.task-profile-card-right h4 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.task-profile-content div.basic p strong {
+  margin-right: 10px;
+  display: inline-block;
+  text-align: left;
+  color: #000;
+}
+
